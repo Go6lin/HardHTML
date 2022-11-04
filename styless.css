@@ -1,0 +1,597 @@
+body {
+    background: #1F2326EF;
+    z-index: 0;
+}
+.ellipse__big__red {
+    position: sticky;
+    background-image: url("images/Ellipse 40.png");
+    width: 1830px;
+    height: 1505px;
+
+    z-index: -1;
+}
+.ellipse__big__black {
+    position: sticky;
+    background-image: url("images/Ellipse 43.png");
+    width: 1081px;
+    height: 931px;
+    top: 100%;
+    left: 100%;
+    z-index: -1;
+}
+.ellipse__big__gray {
+    position: sticky;
+    background-image: url("images/Ellipse 44.png");
+    width: 98px;
+    height: 98px;
+    top: 10%;
+    left: 38%;
+    z-index: -1;
+}
+.ellipse__big__white {
+    position: sticky;
+    background-image: url("images/Ellipse 41.png");
+    width: 470px;
+    height: 209px;
+    top: 100%;
+    left: 5%;
+    z-index: -1;
+}
+.ellipse__small__gray {
+    position: sticky;
+    background-image: url("images/Ellipse 45.png");
+    width: 63px;
+    height: 63px;
+    top: 80%;
+    left: 2%;
+    z-index: -1;
+}
+.ellipse__small__red {
+    position: sticky;
+    background-image: url("images/Ellipse 46.png");
+    width: 44px;
+    height: 44px;
+    bottom: 10%;
+    left: 43%;
+    z-index: -1;
+}
+.ellipse__small__white {
+    position: sticky;
+    background-image: url("images/Ellipse 42.png");
+    width: 268px;
+    height: 269px;
+    top: 13%;
+    left: 40%;
+    z-index: -1;
+}
+.container {
+    position: absolute;
+    margin-top: 303px;
+    margin-left: 220px;
+    width: 3500px;
+    height: 2000px;
+    z-index: 1;
+    top: 2%;
+    left: 15%;
+}
+.upper {
+    display: flex;
+    background-image: url("images/header.png");
+    width: 3500px;
+    height: 200px;
+    border-radius: 50px 50px 0 0;
+    z-index: 2;
+}
+.menu {
+    font-family: Calibri;
+    font-size: 40px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.user {
+    background-image: url("images/portfImg.png");
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 850px;
+    border-radius: 50px 50px 50px 50px;
+
+}
+.logo-studio {
+    margin-top: 60px;
+    margin-left: 70px;
+    background-image: url("images/riot games.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+}
+.separator {
+    margin-top: 42px;
+    margin-left: 80px;
+    background-image: url("images/line.png");
+    width: 5px;
+    height: 100px;
+}
+.logo__white {
+    margin-top: 55px;
+    margin-left: 80px;
+    background-image: url("images/logoW.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+.middle {
+    position: relative;
+    z-index: 2;
+    background-color: #FF4656;
+    background-image: url("images/background.png");
+    width: 3500px;
+    height: 2000px;
+}
+.lower {
+    background-image: url("images/footer.png");
+    margin-top: 0;
+    width: 3500px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 0 0 50px 50px;
+    z-index: 2;
+}
+.middle-up {
+    display: flex;
+    position:absolute;
+    width: 3500px;
+    height: 1700px;
+    top: 120px;
+    left: 80px;
+    z-index: 3;
+}
+.logo__gray {
+    background-image: url("images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 150px;
+    width: 200px;
+    height: 1500px;
+}
+.agents {
+    width: 550px;
+    height: 1500px;
+}
+.agent-img {
+    margin-top: 80px;
+    width: 500px;
+    height: 1400px;
+}
+.info {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 170px;
+    left: 650px;
+    z-index: 6;
+    width: 2775px;
+}
+.character__first-info {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 1000px;
+}
+.character__first-info-name {
+    width: 100px;
+    height: 1000px;
+}
+.character__first-info-country {
+    width: 100px;
+    height: 1000px;
+}
+.character__second-info {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 1000px;
+}
+.character__second-info-name {
+    width: 100px;
+    height: 1000px;
+}
+.character__second-info-country {
+    width: 100px;
+    height: 1000px;
+}
+.character__third-info {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 1000px;
+}
+.character__third-info-name {
+    width: 100px;
+    height: 1000px;
+}
+.character__third-info-country {
+    width: 100px;
+    height: 1000px;
+}
+.character__forth-info {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 1000px;
+}
+.character__forth-info-name {
+    width: 100px;
+    height: 1000px;
+}
+.character__forth-info-country {
+    width: 100px;
+    height: 1000px;
+}
+.character__first {
+    position: relative;
+    z-index: 4;
+    background-color: #1F2326EF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("images/ArtPhen.png");
+    margin-right: 160px;
+    clip-path: polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 2%);
+    width: 550px;
+    height: 1500px;
+}
+.character__second {
+    background-color: #1F2326EF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("images/ArtJett.png");
+    margin-right: 160px;
+    clip-path: polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 2%);
+    width: 550px;
+    height: 1500px;
+}
+.character__third {
+    background-color: #1F2326EF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("images/ArtSova.png");
+    margin-right: 160px;
+    clip-path: polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 2%);
+    width: 550px;
+    height: 1500px;
+}
+.character__forth {
+    position: relative;
+    background-color: #1F2326EF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("images/ArtSage.png");
+    clip-path: polygon(5% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 2%);
+    width: 550px;
+    height: 1500px;
+    z-index: 4;
+}
+.skill-list__character__first {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2326FF;
+    border: 5px solid white;
+    left: 1040px;
+    top: 1550px;
+    width: 550px;
+    height: 100px;
+    position: relative;
+    z-index: 5;
+}
+.skill-list__character__second {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2326FF;
+    border: 5px solid white;
+    left: 1730px;
+    top: 1440px;
+    width: 550px;
+    height: 100px;
+    position: relative;
+    z-index: 5;
+}
+.skill-list__character__third {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2326FF;
+    border: 5px solid white;
+    left: 2420px;
+    top: 1330px;
+    width: 550px;
+    height: 100px;
+    position: relative;
+    z-index: 5;
+}
+.skill-list__character__forth {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background-color: #1F2326FF;
+    border: 5px solid white;
+    left: 3100px;
+    top: 1220px;
+    width: 550px;
+    height: 100px;
+    z-index: 5;
+}
+.skill-list__character__first__first {
+    background-image: url("images/skill01w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__first__second {
+    background-image: url("images/skill02w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__first__third  {
+    background-image: url("images/skill03w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height:72px;
+}
+.skill-list__character__first__forth {
+    background-image: url("images/skill04w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__second__first {
+    background-image: url("images/skill05w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__second__second {
+    background-image: url("images/skill06w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__second__third {
+    background-image: url("images/skill07w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__second__forth {
+    background-image: url("images/skill08w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__third__first {
+    background-image: url("images/skill09w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__third__second {
+    background-image: url("images/skill10w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__third__third {
+    background-image: url("images/skill11w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__third__forth {
+    background-image: url("images/skill12w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__forth__first {
+    background-image: url("images/skill13w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__forth__second {
+    background-image: url("images/skill14w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__forth__third {
+    background-image: url("images/skill15w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.skill-list__character__forth__forth {
+    background-image: url("images/skill16w.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 70px;
+    height: 72px;
+}
+.middle-low {
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    width: 3000px;
+    height: 248px;
+    top: 1820px;
+    right: 600px;
+    z-index: 3;
+}
+.first-skill-box {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images/block.png");
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 800px;
+    height: 270px;
+    clip-path: polygon(3% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 10%);
+}
+.second-skill-box {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images/block.png");
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 800px;
+    height: 270px;
+    clip-path: polygon(3% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 10%);
+}
+.third-skill-box {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images/block.png");
+    background-position: 75% 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 800px;
+    height: 270px;
+    clip-path: polygon(3% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 10%);
+}
+.first-skill-text {
+    width: 300px;
+    height: 200px;
+}
+.first-skill-text__big {
+    margin-top: 40px;
+}
+.first-skill-text__medium {
+    font-family: Calibri;
+    font-size: 46px;
+    font-weight: 1000;
+    margin-top: -40px;
+}
+.first-skill-text__small {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.first-skill-label {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-size: contain;
+    background-image: url("images/skill13b.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 179px;
+    height: 170px;
+}
+.second-skill-text {
+    width: 300px;
+    height: 200px;
+}
+.second-skill-text__big {
+    margin-top: 40px;
+}
+.second-skill-text__medium {
+    font-family: Calibri;
+    font-size: 46px;
+    font-weight: 1000;
+    margin-top: -40px;
+}
+.second-skill-text__small {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.second-skill-label {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-size: contain;
+    background-image: url("images/skill14b.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 179px;
+    height: 170px;
+}
+.third-skill-text {
+    width: 300px;
+    height: 200px;
+}
+.third-skill-text__big {
+    margin-top: 40px;
+}
+.third-skill-text__medium {
+    font-family: Calibri;
+    font-size: 46px;
+    font-weight: 1000;
+    margin-top: -40px;
+}
+.third-skill-text__small {
+    font-family: Calibri;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -40px;
+}
+.third-skill-label {
+    margin-top: 30px;
+    margin-right: 20px;
+    background-size: contain;
+    background-image: url("images/skill15b.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 179px;
+    height: 170px;
+}
+.next {
+    background-image: url("images/Polygon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 219px;
+    height: 248px;
+    clip-path: polygon(10% 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 10%);
+}
