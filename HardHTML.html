@@ -28,45 +28,46 @@
             <div class="menu"><p>UNIVERSE</p></div>
             <div class="menu"><p>SHOP</p></div>
             <div class="menu"><p>SUPPORT</p></div>
-            <div class="user">
+            <div class="user" style="margin-left: auto;">
+                <img src="images/portfImg.png" width="20px" height="20px" style="border-radius: 50px 50px 50px 50px">
             </div>
-            <div class="menu"><p>USER</p></div>
-            <div class="menu">
-                <img src="images/Polygon.svg" width="15px" height="15px">
+            <div class="menu user" style="margin-top: 1%; margin-right: 3px;"><p>USER</p></div>
+            <div class="menu user" style="margin-left: 3px; margin-top: 1.8%">
+                <img src="images/Polygon.svg" width="6px" height="6px">
             </div>
         </div>
     <div class="middle">
             <div class="info">
                 <div class="character__first-info">
                 <div class="character__first-info-name">
-                    <img src="images/PHOENIX.svg">
+                    <img src="images/PHOENIX.svg" width="29px" >
                 </div>
                 <div class="character__first-info-country">
-                    <img src="images/United%20Kingdom.png">
+                    <img src="images/United%20Kingdom.png" width="12px" >
                 </div>
             </div>
                 <div class="character__second-info">
                 <div class="character__second-info-name">
-                    <img src="images/JETT.svg">
+                    <img src="images/JETT.svg" width="29px">
                 </div>
                 <div class="character__second-info-country">
-                    <img src="images/South%20Korea.png">
+                    <img src="images/South%20Korea.png" width="12x" >
                 </div>
             </div>
                 <div class="character__third-info">
                 <div class="character__third-info-name">
-                    <img src="images/SOVA.svg">
+                    <img src="images/SOVA.svg" width="29px">
                 </div>
                 <div class="character__third-info-country">
-                    <img src="images/Russia.png">
+                    <img src="images/Russia.png" width="12px" >
                 </div>
             </div>
                 <div class="character__forth-info">
                 <div class="character__forth-info-name">
-                    <img src="images/SAGE.svg">
+                    <img src="images/SAGE.svg"  width="29px">
                 </div>
                 <div class="character__forth-info-country">
-                    <img src="images/China.png">
+                    <img src="images/China.png"  width="12px">
                 </div>
             </div>
             </div>
@@ -100,17 +101,25 @@
                 <div class="agents" >
                     <img src="images/AGENTS.svg" class="agent-img">
                 </div>
-                <div class="character__first" onclick="showTheChosenFirst()"></div>
-                <div class="character__second" onclick="showTheChosenSecond()"></div>
-                <div class="character__third" onclick="showTheChosenThird()"></div>
-                <div class="character__forth" onclick="showTheChosenForth()"></div>
+                <div class="character__first" id="1" onclick="highlit()">
+                    <img src="images/ArtPhen.png" width="200px" class="pshelnah">
+                </div>
+                <div class="character__second" id="2" onclick="highlit()">
+                    <img src="images/ArtJett.png" width="200px">
+                </div>
+                <div class="character__third" id="3" onclick="highlit()">
+                    <img src="images/ArtSova.png" width="200px">
+                </div>
+                <div class="character__forth" id="4" onclick="highlit()">
+                    <img src="images/ArtSage.png" width="200px">
+                </div>
 
             </div>
             <div class="middle-low">
                 <div class="first-skill-box">
                     <div class="first-skill-text">
                         <div class="first-skill-text__big">
-                            <img src="images/BASIC.png">
+                            <img src="images/BASIC.png" height="12px">
                         </div>
                         <div class="first-skill-text__medium">
                             <p>Slow Orb</p>
@@ -119,12 +128,14 @@
                             <p>Cast out a radianite orb that breaks into a slowing field upon impact with the ground.</p>
                         </div>
                     </div>
-                    <div class="first-skill-label"></div>
+                    <div class="first-skill-label">
+                        <img src="images/skill13b.svg" height="60px">
+                    </div>
                 </div>
                 <div class="second-skill-box">
                     <div class="second-skill-text">
                         <div class="second-skill-text__big">
-                            <img src="images/SIGNATURE.png">
+                            <img src="images/SIGNATURE.png" height="12px">
                         </div>
                         <div class="second-skill-text__medium">
                             <p>Healing Orb</p>
@@ -133,12 +144,14 @@
                             <p>Heal an ally or yourself to full health over a few seconds.</p>
                         </div>
                     </div>
-                    <div class="second-skill-label"></div>
+                    <div class="second-skill-label">
+                        <img src="images/skill14b.svg" height="35px">
+                    </div>
                 </div>
                 <div class="third-skill-box">
                     <div class="third-skill-text">
                         <div class="third-skill-text__big">
-                            <img src="images/ULTIMATE.png">
+                            <img src="images/ULTIMATE.png" height="12px">
                         </div>
                         <div class="third-skill-text__medium">
                             <p>Resurrection</p>
@@ -147,7 +160,9 @@
                             <p>Target a friendly corpse. After a short delay, revive them with full health.</p>
                         </div>
                     </div>
-                    <div class="third-skill-label"></div>
+                    <div class="third-skill-label">
+                        <img src="images/skill15b.svg" height="53px">
+                    </div>
                 </div>
                 <div class="next">
 
