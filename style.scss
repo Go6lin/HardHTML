@@ -7,6 +7,11 @@ body {
   background: #1F2326EF;
   z-index: 0;
 }
+a {
+
+  color: white;
+  text-decoration: none;
+}
 .ellipse__big__red {
   position: absolute;
   background-image: url("images/Ellipse 40.png");
@@ -91,8 +96,8 @@ body {
   z-index: 2;
 }
 .menu {
-  font-family: Calibri;
-  margin: 1% 10px;
+  font-family: "Share Tech";
+  margin: 2% 10px;
   font-size: 12px;
   color: white;
 }
@@ -349,128 +354,128 @@ body {
   height: 35px;
   z-index: 5;
 }
-.skill-list__character__first__first {
-  background-image: url("images/skill01w.svg");
+.skill-list__first__character__first {
+  background-image: url("images/char1/skill01w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__first__second {
-  background-image: url("images/skill02w.svg");
+.skill-list__second__character__first {
+  background-image: url("images/char1/skill02w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__first__third  {
-  background-image: url("images/skill03w.svg");
+.skill-list__third__character__first  {
+  background-image: url("images/char1/skill03w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__first__forth {
-  background-image: url("images/skill04w.svg");
+.skill-list__forth__character__first {
+  background-image: url("images/char1/skill04w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__second__first {
-  background-image: url("images/skill05w.svg");
+.skill-list__first__character__second {
+  background-image: url("images/char2/skill01w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__second__second {
-  background-image: url("images/skill06w.svg");
+.skill-list__second__character__second {
+  background-image: url("images/char2/skill02w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__second__third {
-  background-image: url("images/skill07w.svg");
+.skill-list__third__character__second {
+  background-image: url("images/char2/skill03w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__second__forth {
-  background-image: url("images/skill08w.svg");
+.skill-list__forth__character__second {
+  background-image: url("images/char2/skill04w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__third__first {
-  background-image: url("images/skill09w.svg");
+.skill-list__first__character__third {
+  background-image: url("images/char3/skill01w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__third__second {
-  background-image: url("images/skill10w.svg");
+.skill-list__second__character__third {
+  background-image: url("images/char3/skill02w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__third__third {
-  background-image: url("images/skill11w.svg");
+.skill-list__third__character__third {
+  background-image: url("images/char3/skill03w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__third__forth {
-  background-image: url("images/skill12w.svg");
+.skill-list__forth__character__third {
+  background-image: url("images/char3/skill04w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__forth__first {
-  background-image: url("images/skill13w.svg");
+.skill-list__first__character__forth {
+  background-image: url("images/char4/skill01w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__forth__second {
-  background-image: url("images/skill14w.svg");
+.skill-list__second__character__forth {
+  background-image: url("images/char4/skill02w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__forth__third {
-  background-image: url("images/skill15w.svg");
+.skill-list__third__character__forth {
+  background-image: url("images/char4/skill03w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 40px;
   height: 30px;
 }
-.skill-list__character__forth__forth {
-  background-image: url("images/skill16w.svg");
+.skill-list__forth__character__forth {
+  background-image: url("images/char4/skill04w.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -534,14 +539,14 @@ body {
   left: 1%;
 }
 .first-skill-text__medium {
-  font-family: Calibri;
+  font-family: "Share Tech";
   font-size: 16px;
   font-weight: 1000;
   margin-top: 7%;
   margin-left: 1%;
 }
 .first-skill-text__small {
-  font-family: Calibri;
+  font-family: "Share Tech";
   position: relative;
   left: 1%;
   bottom: 10%;
@@ -561,14 +566,14 @@ body {
   left: 1%;
 }
 .second-skill-text__medium {
-  font-family: Calibri;
+  font-family: "Share Tech";
   font-size: 16px;
   font-weight: 1000;
   margin-top: 7%;
   margin-left: 1%;
 }
 .second-skill-text__small {
-  font-family: Calibri;
+  font-family: "Share Tech";
   position: relative;
   left: 1%;
   bottom: 10%;
@@ -588,14 +593,14 @@ body {
   left: 1%;
 }
 .third-skill-text__medium {
-  font-family: Calibri;
+  font-family: "Share Tech";
   font-size: 16px;
   font-weight: 1000;
   margin-top: 7%;
   margin-left: 1%;
 }
 .third-skill-text__small {
-  font-family: Calibri;
+  font-family: "Share Tech";
   position: relative;
   left: 1%;
   bottom: 10%;
